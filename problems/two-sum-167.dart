@@ -4,7 +4,6 @@ void main() {
 
 List<int> twoSum(List<int> nums, int target) {
   List<int> res = [];
-
   for (int i = 0; i < nums.length; i++) {
     for (int k = i; k < nums.length; k++) {
       if (nums[i] + nums[k] == target) {
